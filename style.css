@@ -1,0 +1,184 @@
+
+body{
+    margin: 0 auto;
+    font-family: 'roboto';
+}
+
+
+/*FRONT PAGE*/
+
+.container{
+    background-image: url(img/stefan-johnson-xIFbDeGcy44-unsplash.jpg);
+    opacity: 0.85;
+    background-size:cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 3rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 2.5rem;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+h1{
+    font-family: 'francois one';
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.container h3{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+@media (min-width: 800px){
+    .container{
+     padding-bottom: 20rem;
+     padding-top: 1rem;
+    }
+
+    h1{
+        font-size: 8.5rem;
+        margin-bottom: 0;
+    }
+
+   .main-text{
+      margin-top: 1rem;  
+    } 
+
+    ul{
+        justify-content: flex-end;
+
+    }
+
+    a{
+        margin-right: 5rem;
+        font-size: 1.4rem;
+    }
+
+    .container h3{
+        font-size: 4.5em;
+        font-weight: 300;
+        margin-top:0px;
+    }
+}
+
+
+
+/*WHO ARE WE */
+
+.Who{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1.2rem;
+}
+
+.Who img{
+    max-width: 100%;
+
+}
+
+h2{
+    color: rgb(65, 63, 63);
+    font-weight: 500;
+}
+
+.Who p{
+    color: rgb(80, 79, 79);
+    line-height: 1.7rem;
+}
+
+@media (min-width:800px){
+     
+    .Who{
+        display: flex;
+        flex-direction: row-reverse;
+        
+        
+        
+    }
+    
+    .Who img{
+        max-width:70%;
+    }
+}
+
+
+
+
+/*PICTURES SECTION*/
+
+.Pictures img{
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+
+.Pictures{
+    max-height: 300px;
+    padding:1.2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: "a a b"
+                         "c d d"    ;
+}
+
+.img-toast{
+    grid-area: a ;
+}
+
+.img-drinks{
+    grid-area: b;
+}
+
+.img-dessert{
+    grid-area: c;
+}
+
+.img-salad{
+    grid-area: d;
+}
+
+/*WHINE SECTION*/
+
+.Whine img{
+    max-width: 100%;
+}
+
+.Whine{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1.2rem;
+}
+
+
+.Whine p{
+    color:  rgb(80, 79, 79);
+    line-height: 1.7rem;
+}
+
+.Whine button{
+      width: 7rem;
+      padding: 0.5rem;
+      border-radius: 0.9rem;
+      background-color: transparent;
+      border-style: solid ;
+      border-color: rgb(153, 153, 153);
+      margin-top: 1rem;
+      
+      
+      
+}

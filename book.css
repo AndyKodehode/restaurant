@@ -1,0 +1,208 @@
+body{
+    margin: 0 auto;
+    font-family: 'roboto';
+    color: rgb(66, 66, 66);
+
+}
+
+
+    
+
+
+header{
+    background-image: url(img/matthias-heil-lDOEwat_MPs-unsplash.jpg);
+    opacity: 0.8;
+    background-position:center;
+    background-size: cover;
+    height: 20rem;
+    text-align: center;
+  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    opacity: 0.6;
+    padding-left: 1rem;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 1rem;
+    margin-top: 0;
+    
+   
+}
+
+ul :hover{
+    text-decoration: underline;
+    color: rgba(248, 117, 117, 0.89);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(116, 16, 16, 0.712);
+    padding-right: 2rem;
+    
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: 3rem;
+    max-width: 100%;
+    border-style: solid;
+    border-color:rgba(205, 92, 92, 0.336);
+    
+    
+}
+
+h2{
+    font-size: 5rem;
+    padding-top: 5rem;
+    font-family: 'francois one';
+    color: rgb(245, 241, 241);
+    margin-top: 0;
+}
+
+h4{
+    color:rgb(107, 43, 43) ;
+    font-weight: 500;
+    text-decoration: underline;
+    
+}
+
+.person-cont{
+    display: flex;
+    flex-direction: column;
+    color:rgb(107, 43, 43) ;
+}
+
+.person-cont label{
+    padding-bottom: 1rem;
+}
+
+.person-cont input{
+    margin-bottom: 0.5rem;
+    padding: 0.4rem;
+}
+
+.nr-people{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    max-width: 10rem;
+}
+
+.date{
+   
+    padding: 3rem;
+
+}
+
+.date input:webkit-datetime-edit{
+    display: block;
+}
+
+
+.serve-form{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    max-width: 10rem;
+    margin-left: 0.5rem;
+
+}
+
+
+.allergies-form{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    margin-left: 0.5rem;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+}
+
+.serve-rad{
+   margin-bottom: 0.25rem;
+   
+
+}
+
+#people{
+    background-color:transparent;
+    border-style: solid;
+    padding: 0.3rem;
+}
+
+button{
+    width: 5rem;
+    padding: 5px;
+    margin-left: 12rem;
+    border-radius: 7px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+}
+
+@media(min-width:950px){
+    form{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   }
+
+   .H4container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 2rem;
+     
+   }
+
+   ul{
+       justify-content: right;
+       margin-right: 3rem;
+   }
+
+   a{
+       padding-right: 4rem;
+   }
+
+   .person-cont{
+       margin-top: 3.5rem;
+       
+
+   }
+
+   .person-cont input{
+       width: 11rem;
+   }
+
+   .date input{
+       margin-left: 0.7rem;
+   }
+
+   
+
+  
+
+ }

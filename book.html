@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="book.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/roofing_black_48dp.svg" alt="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="info.html">Info</a></li>
+                
+            </ul>
+        </nav>
+
+        <h2>Reserver</h2>
+    </header>
+    
+    <div class="forms">
+        <form action="thank_you.php" method="POST">
+          
+          <div class="person-cont">
+              <label for="name">Ditt navn</label>
+              <input type="text" id="name">
+              <label for="email">Din mail</label>
+              <input type="email" id="email">
+
+          </div>
+
+          <div class="H4container">
+            <h4>Velg dato</h4>
+            <div class="date">
+                <input type="date" id="calender">
+            </div>
+          </div>
+            
+            <div class="H4container">
+                <h4> Hvor mange blir dere?</h4>
+                <div class="nr-people">
+                    <select id="people" name="people">
+                        <option value="1"> 1</option>
+                        <option value="2"> 2</option>
+                        <option value="3"> 3</option>
+                        <option value="4"> 4</option>
+                        <option value="5"> 5</option>
+                        <option value="6"> 6</option>
+                    </select>
+                </div>
+            </div>
+
+            
+            <div class="H4container" >
+                <h4>Hva skal vi servere?</h4>
+              <div class="serve-form">
+            
+
+                <div class="label">
+                    <label for="lunsj">lunsj</label>
+                    <label for="middag">middag</label>
+                    <label for="drikke">drikke</label>
+                </div>
+
+                <div class="inp">
+                    <input class="serve-rad" type="radio" id="lunsj" value="lunsj">
+                    <input class="serve-rad" type="radio" id="middag" value="middag">
+                    <input class="serve-rad" type="radio" id="drikke" value="drikke">
+                </div>
+              </div>
+                
+                
+               
+            </div>
+
+            <div class="H4container">
+                <h4>Allergier</h4>
+
+                <div class="allergies-form">
+                    <div class="label">
+                        <label for="laktose">laktose</label>
+                        <label for="egg">egg</label>
+                        <label for="hvete">hvete</label>
+                        <label for="nøtter">nøtter</label>
+                        <label for="fisk">fisk</label>
+
+                    </div>
+
+                    <div class="inp">
+
+                        <input type="checkbox" id="laktose">
+                        <input type="checkbox" id="egg">
+                        <input type="checkbox" id="hvete">
+                        <input type="checkbox" id="nøtter">
+                        <input type="checkbox" id="fisk">
+                        
+                    </div>
+                    
+                   
+                </div>
+
+                <button> Bestill</button>
+            </div>
+
+            
+
+            
+        </form>
+
+
+    </div>
+     
+
+</body>
+</html>

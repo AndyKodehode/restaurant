@@ -1,0 +1,140 @@
+
+body{
+    font-family: 'roboto' ;
+    color:  rgb(68, 67, 67);
+    
+}
+
+
+body::before{
+    content: "";
+    background-image: url(img/brooke-lark-g1-N7rv720w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom; 
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    padding-bottom: 80rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-link{
+    list-style: none;
+    display: flex;
+    padding-right: 1rem;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 0.7rem;
+    margin-top: 2rem; 
+ 
+}
+
+nav img{
+    padding-left: 2rem;
+    opacity: 0.6;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: rgba(248, 117, 117, 0.89);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(116, 16, 16, 0.712);
+    padding-right: 3rem;
+}
+
+.meny-cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+
+}
+
+.meny{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.salat{
+    padding-left: 10rem;
+}
+
+p{
+   color: rgb(36, 35, 35);
+}
+
+li{
+    list-style: none;
+    max-width: 20rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+h2{
+    padding-left: 2.5rem;
+    text-decoration: underline;
+}
+
+#kylling{
+    font-weight: 430;
+
+}
+
+
+
+
+
+@media(max-width:800px){
+
+    .meny-cont{
+        padding-right: 5rem;
+        padding-left: 5rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .salat{
+        padding-left: 0;
+        padding-top: 5rem;
+    }
+
+    .list-cont{
+        max-width: 70%;
+    }
+
+    p{
+        padding-left: 2.5rem;
+    }
+
+    nav{
+        padding-left: 5rem;
+        justify-content: center;
+    }
+
+    body::before{
+
+        padding-bottom: 170rem;
+    }
+
+    #scampi{
+        font-weight: 500;
+    }
+
+    nav img{
+        margin-right: 2rem;
+    }
+
+}

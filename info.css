@@ -1,0 +1,130 @@
+body{
+    font-family: 'roboto' ;
+   margin: 0;
+
+    
+}
+
+
+
+
+header{
+    height: 20rem;
+    background-image: url(img/alex-dudar-9lR1vtvYMwQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5rem;
+    opacity: 0.7;
+    
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 2.5rem;
+}
+
+
+
+.info-link{
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    padding-right: 4rem;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 1rem;
+    margin-top: 0;
+    
+   
+}
+
+.info-link :hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.logo{
+    margin-left: 4rem;
+}
+
+main{
+    display: flex;
+    justify-content:space-between
+}
+
+.img-container{
+    width: 50%;
+  
+}
+
+img{
+    max-width: 80%;
+}
+
+.info-container{
+    padding-left: 4rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.info-container div{
+    padding-bottom: 2rem;
+}
+
+p,
+h3{
+    color: rgb(83, 83, 83);
+}
+
+@media (max-width:600px){
+    .img-container img{
+        display: none;
+    }
+
+    .info-container{
+        padding-left: 3rem;
+    }
+
+    #adresse{
+        padding-left: 2.6rem;
+        width: 10rem;
+        line-height: 1.5rem;
+    }
+
+    #adresse h3{
+        padding-left: 0.1rem;
+    }
+
+    .info-link{
+        justify-content: space-between;
+        padding-left: 7rem;
+
+        
+    }
+
+    nav{
+        justify-content: space-around;
+    }
+
+    a{
+        padding-right: 1rem;
+    }
+
+  
+
+    
+
+   
+
+    
+}
+ 
